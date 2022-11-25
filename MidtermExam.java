@@ -33,7 +33,6 @@ public class Main {
         System.out.println("second try " + (dice3 + dice4));
         System.out.println("you lost");
       }
-
     }
   }
 }

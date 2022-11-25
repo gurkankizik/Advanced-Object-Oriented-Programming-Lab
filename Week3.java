@@ -7,10 +7,10 @@ public class Main {
     //Week 3
     //Example 1
 
-    Scanner str = new Scanner(System.in);
+    Scanner input = new Scanner(System.in);
 
     System.out.println("Enter a string: ");
-    String user = str.nextLine();
+    String user = input.nextLine();
 
     int low = 0;
     int high = user.length() - 1;
@@ -36,7 +36,6 @@ public class Main {
 
     //Example 2
 
-    Scanner input = new Scanner(System.in);
     System.out.println("Enter an integer (0 to exit): ");
 
     int positives = 0;
@@ -73,8 +72,6 @@ public class Main {
     }
 
     //Example 4
-
-    Scanner input = new Scanner(System.in);
 
     double sum = 0.0;
     double deviation = 0.0;

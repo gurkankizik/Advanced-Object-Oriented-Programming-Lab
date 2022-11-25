@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Main {
 
   public static void main(String args[]) {
+	  Scanner input = new Scanner(System.in);
 
     //Week 2
     //Example 1
@@ -65,7 +66,7 @@ public class Main {
       break;
     }
     System.out.println("Scissor(0), Rock(1), Paper(2): ");
-    int player = myObj.nextInt();
+    int player = input.nextInt();
 
     switch (player) {
     case 0:
@@ -93,8 +94,8 @@ public class Main {
     double result;
 
     System.out.println("Enter a point with two coordinates: ");
-    double x = myObj.nextDouble();
-    double y = myObj.nextDouble();
+    double x = input.nextDouble();
+    double y = input.nextDouble();
 
     result = Math.sqrt(Math.pow(x - inx, 2) + Math.pow(y - iny, 2));
 
@@ -108,8 +109,8 @@ public class Main {
 
     int lottery = (int)(Math.random() * 100);
 
-    System.out.println("Enter number (2 digits): " + lottery);
-    int guess = myObj.nextInt();
+    System.out.println("Enter number (2 digits): ");
+    int guess = input.nextInt();
 
     int digit1 = lottery / 10;
     int digit2 = lottery % 10;

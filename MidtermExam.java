@@ -1,4 +1,4 @@
-//This is not runable file, you can copy questions separately and run it.
+//This is not a runable file, you can copy questions separately and run it.
 
 //Question 1
 public class Main {

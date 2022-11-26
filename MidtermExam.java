@@ -62,10 +62,10 @@ public class Main {
     }
     for (int i = 0; i < pass.length(); i++) {
       if (Character.isLetter(pass.charAt(i))) {
-        hasOneDigit = true;
+        hasOneLetter = true;
         break;
       } else {
-        hasOneDigit = false;
+        hasOneLetter = false;
       }
     }
     if (hasOneLetter) {

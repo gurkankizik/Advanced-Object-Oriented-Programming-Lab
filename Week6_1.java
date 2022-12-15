@@ -12,8 +12,7 @@ public class Main {
 	  if(input % 2 == 0) {
 		  led.turnOn();
 	  }
-	  else led.turnOff();
-	  
+	  else led.turnOff();	  
   }
 }
 
